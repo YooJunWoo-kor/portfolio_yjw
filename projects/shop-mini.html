@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Mini — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html" aria-label="홈으로">
+      <span class="logo-mark">H</span>
+      <span class="logo-text">Hong Gildong</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav" aria-label="주요">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#projects" class="is-active">Projects</a>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <a class="back" href="../index.html#projects">← 프로젝트 목록</a>
+    <p class="eyebrow">E-commerce</p>
+    <h1>Shop Mini</h1>
+    <div class="project-meta">
+      <span>역할: Frontend</span>
+      <span>스택: HTML · CSS · JS</span>
+    </div>
+    <img
+      class="project-hero"
+      src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80"
+      alt="Shop Mini 화면"
+    />
+    <h2>개요</h2>
+    <p>
+      상품 목록과 장바구니 흐름을 바닐라 JS로 구현한 미니 스토어입니다.
+      목록에서 담고, 수량을 바꾸고, 합계를 확인하는 흐름을 단순하게 유지했습니다.
+    </p>
+    <h2>구현 포인트</h2>
+    <p>
+      상품 카드, 장바구니 패널, 합계 계산을 분리해 상태 변화를 따라가기 쉽게 했고,
+      작은 화면에서도 장바구니 조작이 가능하도록 레이아웃을 맞췄습니다.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 홍길동</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analytics Dashboard — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html" aria-label="홈으로">
+      <span class="logo-mark">H</span>
+      <span class="logo-text">Hong Gildong</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav" aria-label="주요">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#projects" class="is-active">Projects</a>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <a class="back" href="../index.html#projects">← 프로젝트 목록</a>
+    <p class="eyebrow">Web Dashboard</p>
+    <h1>Analytics Dashboard</h1>
+    <div class="project-meta">
+      <span>역할: Frontend</span>
+      <span>스택: HTML · CSS · JS</span>
+    </div>
+    <img
+      class="project-hero"
+      src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1400&q=80"
+      alt="Analytics Dashboard 화면"
+    />
+    <h2>개요</h2>
+    <p>
+      실시간 지표를 한 화면에 모아 보여주는 웹 대시보드입니다.
+      핵심 숫자, 차트, 필터를 한눈에 읽히도록 레이아웃을 구성했습니다.
+    </p>
+    <h2>구현 포인트</h2>
+    <p>
+      카드형 KPI와 차트 영역을 분리해 스캔하기 쉽게 만들었고,
+      반응형 그리드로 태블릿과 모바일에서도 정보가 끊기지 않게 했습니다.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 홍길동</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
